@@ -1,1 +1,66 @@
-site_name: My Docs
+site_name: WSO2 Update Manager Documentation
+
+# Repository
+repo_name: View on Github
+repo_url: https://github.com/sherenewso2/mkdocs-sher
+
+nav:
+    - Home: WSO2_Updates.md
+    - Getting Started:
+      - 'Introduction': 'Introduction.md'
+      - 'Using WSO2 In-Place Updates': 'Using_WSO2_In-Place_Updates.md'
+    - Using WSO2 Update Manager: 
+      - 'Getting Started': 'Getting_Started.md'
+      - 'Getting Continuous Updates': 'Getting_Continuous_Updates.md'
+      - 'Restoring the Previous Setup': 'Restoring_the_Previous_Setup.md'
+      - 'WUM Commands Guide': 'Getting_Continuous_Updates.md'
+    - Guides:
+      - 'Troubleshooting Guide': 'Troubleshooting.md'
+      - 'Best Practices Guide': 'Best_Practices_Guide.md'
+      - 'Developer Guide': 'Developer_Guide.md'
+    - FAQ:
+      - 'Frequently Asked Questions': 'FAQ.md'
+
+theme:
+  name: 'material'
+  palette: 
+    primary: 'blue grey'
+    accent: 'deep orange'
+  font:
+    text: 'Nunito Sans'
+    code: 'Courier New'
+  logo: 'images/WSO2_Software_Logo.png'
+  language: 'en'
+  feature:
+    tabs: true  
+
+extra:
+    version: '2.4.4'
+    search:
+    language: 'en'
+    tokenizer: '[\s\-\.]+'
+   
+plugins:
+   - search
+
+extra_css: [extra.css]
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
