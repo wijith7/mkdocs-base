@@ -2,7 +2,7 @@ site_name: WSO2 Update Manager Documentation
 
 # Repository
 repo_name: View on Github
-repo_url: https://github.com/sherenewso2/mkdocs-sher
+repo_url: https://github.com/sherenewso2/mkdocs-base
 
 nav:
     - Home: WSO2_Updates.md
