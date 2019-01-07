@@ -1,6 +1,6 @@
 # Developer Guide
 
-The WSO2 Update Creator tool (wum-uc) is designed to help you create and
+The WSO2 Update TESTING Creator tool (wum-uc) is designed to help you create and
 validate updates that are compatible with
 [WUM.](https://medium.com/@shan1024/wum-wso2-update-manager-97e0578a49ba#.aomo1cmf0) It
 is written in [GO](https://golang.org/) language. As a result, you can
