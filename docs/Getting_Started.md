@@ -1,4 +1,4 @@
-# Getting Started
+# Getting Started 1
 
 If you are new to WSO2 updates, here is how to install WUM and update
 your product for the first time:
