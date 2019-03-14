@@ -1,4 +1,4 @@
-# Welcome to MkDocs 5.5.0 hi lang
+# Welcome to MkDocs 5.5.0 hi 
 
 For full documentation visit [mkdocs.org](http://mkdocs.org).
 
