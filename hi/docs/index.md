@@ -1,4 +1,4 @@
-# Welcome to MkDocs 5.6
+# Welcome to MkDocs 5.6 hi
 
 For full documentation visit [mkdocs.org](http://mkdocs.org).
 
